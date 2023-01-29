@@ -7,18 +7,10 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
     <link rel="stylesheet" href="/css/styles.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <style>
-    .carousel-inner > .item > img,
-    .carousel-inner > .item > a > img {
-      width: 70%;
-      margin: auto;
-    }
-    </style>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
 </head>
 <body  style="background-color:bisque">
-  
     <nav class="w3-bar w3-black">
         <a href="http://localhost:8000/html/main.html#Projects" class="w3-button w3-bar-item">Home</a>
         <a href="#Hobbies" class="w3-button w3-bar-item">Hobbies</a>
@@ -28,11 +20,11 @@
     </nav>
 
 
-    <div class="container">
-        <br>
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- <div class="container">
+      <br>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel"> -->
           <!-- Indicators -->
-          <ol class="carousel-indicators">
+          <!-- <ol class="carousel-indicators">
             <li data-target="" data-slide-to="0" class="active"></li>
             <li data-target="link to read more about it haha" data-slide-to="1"></li>
             <li data-target="#myCarousel" data-slide-to="2"></li>
@@ -69,9 +61,9 @@
                   <h3>My Sister's Keeper by Jodi Picoult</h3>
                   <p>short blurb</p>
                 </div>
-              </div>
+              </div> -->
                <!-- Left and right controls -->
-              <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+              <!-- <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
                 <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
                 <span class="sr-only">Previous</span>
               </a>
@@ -79,9 +71,29 @@
                 <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
                 <span class="sr-only">Next</span>
               </a>
-  </div>
-          
-            </div>
+          </div> -->
+        <!-- </div> -->
+
+          <!-- slider version 2.0-->
+
+    <div class = "slider-wrapper">
+      <div class="slide">
+        <img src="/books/a-little-life.webp" alt="A Little Life">
+      </div>
+      <div class="slide">
+        <img src="/books/miraculous-journey-of.jpg" alt="The Miraculous Journey of Edward Tulaney" >
+      </div>
+      <div class="slide">
+        <img src="/books/my-sisters-keeper.jpg" alt="My Sister's Keeper" >
+      </div>
+      
+        <button class = "slide-arrow slide-arrow-prev">
+          &#8249; <!--arrow icon-->
+        </button>
+        <button class = "slide-arrow slide-arrow-next">
+          &#8250; <!--arrow icon-->
+        </button>
+    </div>
 </body>
 
 </html>
