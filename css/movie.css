@@ -1,0 +1,26 @@
+.ghibliFilm1 {
+    flex: 1.6185;
+}
+.ghibliFilm2 {
+    flex: 1.7569;
+}
+.ghibliFilm3{
+    flex: 1.6055;   
+}
+img {
+    height:40%;
+    width:40%;
+    padding:10px;
+    margin-left: auto;
+    margin-right: auto;  
+}
+.same_size_pics {
+   
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3rem;
+    padding: 50px;
+    border-style:groove;
+    border-color: rgb(139, 98, 64);
+}
