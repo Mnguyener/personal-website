@@ -3,16 +3,16 @@
     border: 1rem;
     border-color: brown;
     border-style: solid;
-
     height: 280px;
     width: 498px;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 100px;
 }
-img {
- 
+.layered_border img {
     margin-left: auto;
     margin-right: auto;  
+
     border: 1rem;
     border-color: rgb(36, 27, 23);
     border-style: solid;
@@ -22,4 +22,7 @@ h2 {
     color:brown;
     font-weight: 700;
     text-shadow: 2px 3px 0px rgb(87, 77, 73);
+}
+nav {
+    color:brown;
 }
