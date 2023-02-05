@@ -2,10 +2,14 @@
 
 <meta charset="UTF-8">
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
-
+<meta name="description" content="Welcome to my homesy blog.">
+<meta name="author" content="Miso">
+<title>Blog</title>
+<!--themify font icons-->
+<link rel="stylesheet" href="/css/themify-icons.css">
 <link rel="stylesheet" type="text/css" href="/css/blog.css">
 <header>
     <nav class="w3-bar w3-black">
@@ -18,12 +22,112 @@
     </nav>
 
 </header>
-<body style="background-color:bisque">
-    <div class="header">
-        <h2>Snowby's Blog</h2>      
-        <img class="header-image" src="/img/snoopy_typin.webp">
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+    <div class="container">
+        <section>
+            <div class="header"> <!--currently no css for .header-->
+                <h2 class="feature-post-item"> <!--the class tag is here to try to align with the archived posts; obvs it's failing but i'm making do-->
+                    <img class="header-image" src="/img/snoopy_typin.webp">
+                    Snoopy's Post
+                </h2>      
+            </div>
+            <div class="feature-posts">
+                <a href="" class="feature-post-item">                       
+                    <span>Archived Posts</span>
+                </a>
+                <a href="" class="feature-post-item">
+                    <img src="/img/bento.webp" class="w-100" alt="">
+                    <div class="feature-post-caption">My First Blog</div>
+                </a>
+                <a href="" class="feature-post-item">
+                    <img src="/img/coffee.jpg" class="w-100" alt="">
+                    <div class="feature-post-caption">Filial Piety</div>
+                </a>
+                <a href="" class="feature-post-item">
+                    <img src="/img/open_bento.webp" class="w-100" alt="">
+                    <div class="feature-post-caption">Running out of Time</div>
+                </a>
+            </div>
+        </section>
+        <hr>
+        <div class="page-container">
+            <div class="page-content">
+                <div class="card">
+                    <div class="card-header text-center">
+                        <h5 class="card-title">Regarding my Past Blogs</h5> 
+                        <small class="small text-muted">January 05 2023
+                            <span class="px-2">-</span>
+                            <a href="#" class="text-muted">peek-a-boo!</a>
+                        </small>
+                    </div>
+                    <div class="card-body">
+                        <div class="blog-media">
+                            <img src="assets/imgs/blog-6.jpg" alt="" class="w-100">
+                            <a href="#" class="badge badge-primary">#Xin Chào bạn!</a>     
+                        </div>  
+                        <p class="my-3">Hello there. I am currently in the process of reorganizing/reformatting this blog page. 
+                            I have been thinking about the blogs from the past year that I recently published, and I felt that some of them didn't fulfill the vibe I wanted.
+                            That's why I am going to work on a more positive approach to this 2023 year. While I want to showcase who I am, including some of my vulnerabilities/insecurities, 
+                            I don't want my blogs to be overshadowed by negativity. So! I will put my past blogs in an archive. That way, the unassuming eye won't see anything offputting. 
+                            At the time of this post, there won't be anything published in the archive yet, so please be patient if you are curious enough to read them :).
+                        </p>
+                    </div>
+                    
+                    <div class="card-footer d-flex justify-content-between align-items-center flex-basis-0">
+                        <button class="btn btn-primary circle-35 mr-4"><i class="ti-back-right"></i></button>
+                        <a href="single-post.html" class="btn btn-outline-dark btn-sm">  </a> <!--READ MORE --> 
+                        <a href="#" class="text-dark small text-muted">  <!--By : Joe Mitchell-->  </a> 
+                    </div>                  
+                </div>
+                <hr>
+                <!-- <div class="row">                       
+                    <div class="col-lg-6">
+                        <div class="card text-center mb-5">
+                            <div class="card-header p-0">                                   
+                                <div class="blog-media">
+                                    <img src="assets/imgs/blog-2.jpg" alt="" class="w-100">
+                                    <a href="#" class="badge badge-primary">#Placeat</a>        
+                                </div>  
+                            </div>
+                            <div class="card-body px-0">
+                                <h5 class="card-title mb-2">Voluptates Corporis Placeat</h5>    
+                                <small class="small text-muted">January 20 2019 
+                                    <span class="px-2">-</span>
+                                    <a href="#" class="text-muted">34 Comments</a>
+                                </small>
+                                <p class="my-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos saepe dolores et nostrum porro odit reprehenderit animi, est ratione fugit aspernatur ipsum. Nostrum placeat hic saepe voluptatum dicta ipsum beatae.</p>
+                            </div>
+                            
+                            <div class="card-footer p-0 text-center">
+                                <a href="single-post.html" class="btn btn-outline-dark btn-sm">READ MORE</a>
+                            </div>                  
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card text-center mb-5">
+                            <div class="card-header p-0">                                   
+                                <div class="blog-media">
+                                    <img src="assets/imgs/blog-3.jpg" alt="" class="w-100">
+                                    <a href="#" class="badge badge-primary">#dolores</a>        
+                                </div>  
+                            </div>
+                            <div class="card-body px-0">
+                                <h5 class="card-title mb-2">Dolorum Dolores Itaque</h5> 
+                                <small class="small text-muted">January 19 2019 
+                                    <span class="px-2">-</span>
+                                    <a href="#" class="text-muted">64 Comments</a>
+                                </small>
+                                <p class="my-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos saepe dolores et nostrum porro odit reprehenderit animi, est ratione fugit aspernatur ipsum. Nostrum placeat hic saepe voluptatum dicta ipsum beatae.</p>
+                            </div>
+                            
+                            <div class="card-footer p-0 text-center">
+                                <a href="single-post.html" class="btn btn-outline-dark btn-sm">READ MORE</a>
+                            </div>                  
+                        </div>
+                    </div> -->
+                </div>
     </div>
-    <div class="leftcolumn">
+    <!-- <div class="leftcolumn">
         <div class="card">
             <h3>My First Post</h3>
                 <h5><i>2022-10-27</i></h5>
@@ -54,5 +158,5 @@
                         I really want to know if there's people like me out there. If you also struggle to learn despite trying your best. Right now, I feel alone in my struggles as all my peers and friends seem so bright and intelligent. As I type, I have a friend learning JavaScript while building their own website. It's truly admiring. I have tried to build and design my own websites in the past, but I kept failing because I felt that I didn't have enough time or I was too dumb to connect some parts together to make it work.
                     </p>
         </div>
-    </div>
+    </div> -->
 </body>
