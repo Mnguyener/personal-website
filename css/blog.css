@@ -24,13 +24,13 @@
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   }
   a {
-    color: #c2f6ea;
+    color: lightcoral;
     text-decoration: none;
     background-color: transparent;
   }
   
   a:hover {
-    color: #7fecd3;
+    color: brown;
     text-decoration: none;
   }
   
