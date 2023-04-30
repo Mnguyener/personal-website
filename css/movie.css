@@ -1,22 +1,52 @@
-.ghibliFilm1 {
-    flex: 1.6185;
-}
-.ghibliFilm2 {
-    flex: 1.7569;
-}
-.ghibliFilm3{
-    flex: 1.6055;   
-}
+
 img {
+    object-fit: cover;
     height:40%;
     width:40%;
-    padding:10px;
+
     margin-left: auto;
-    margin-right: auto;  
+    margin-right: auto; 
+    position: relative;
 }
-.same_size_pics {
-   
-    display: flex;
+.img {
+    position: relative;
+    padding: 0;
+    cursor: pointer;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto; 
+    height:40%;
+    width:40%;
+  
+}
+
+.content {
+    margin-left: auto;
+    margin-right: auto; 
+    opacity: 0;
+    font-size: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #1c87c9;
+    background-color: rgba(200, 200, 200, 0.5);
+    width: 300px;
+    height: 300px;
+    -webkit-transition: all 400ms ease-out;
+    -moz-transition: all 400ms ease-out;
+    -o-transition: all 400ms ease-out;
+    -ms-transition: all 400ms ease-out;
+    transition: all 400ms ease-out;
+    text-align: center;
+}
+
+.img .content:hover {
+    opacity: 1;
+}
+
+
+.row {
+    display: inline-flex;
     margin-left: auto;
     margin-right: auto;
     border: 3rem;
