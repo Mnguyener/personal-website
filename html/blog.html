@@ -2,45 +2,397 @@
 
 <meta charset="UTF-8">
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
-
-<link rel="stylesheet" href="/css/blog.css">
+<meta name="description" content="Welcome to my homesy blog.">
+<meta name="author" content="Miso">
+<title>Blog</title>
+<!--themify font icons-->
+<link rel="stylesheet" href="/css/themify-icons.css">
+<link rel="stylesheet" type="text/css" href="/css/blog.css">
 <header>
     <nav class="w3-bar w3-black">
-        <a href="/main.html" class="w3-button w3-bar-item">Home</a>
-        <a href="/blog.html" class="w3-button w3-bar-item">Blog</a>
+        <a href="/html/main.html" class="w3-button w3-bar-item">Home</a>
+        <a href="/html/blog.html" class="w3-button w3-bar-item">Blog</a>
         <a href="#Hobbies" class="w3-button w3-bar-item">Hobbies</a>
         <a href="#Projects" class="w3-button w3-bar-item">Projects</a>
-        <a href="/books.html" class="w3-button w3-bar-item">Books to Read</a>
-        <a href="#movies" class="w3-button w3-bar-item">Movies to watch</a>
+        <a href="/html/books.html" class="w3-button w3-bar-item">Books to Read</a>
+        <a href="/html/movies.html" class="w3-button w3-bar-item">Movies to watch</a>
     </nav>
 
 </header>
-<body style="background-color:bisque">
-    <div class="header">
-        <h2>Snowby's Blog</h2>      
-        <img class="header-image" src="/img/snoopy_typin.webp">
-    </div>
-    <div class="leftcolumn">
-        <div class="card">
-            <h3>Filial Piety</h3>
-                <h5><i>2022-11-01</i></h5>
-                <p>What is filial piety you may ask? Filial piety, according to my brief Google search, is "the attitude of respect for parents and ancestors in societies influenced by Confucian thought." You may think that this concept/idea is enforced in some degree of any culture of society, not just Asia. However, filial piety is extremely valued in Asian families; the children are always always expected to repay their parents by taking care of them when they are older. Since parents give all their love to their children, feed and clothe them, and provide support/money for their education, it is highly expected that the children give back the same kind of love when their parents grow older and can no longer support themselves.
-                    I'm talking about this topic today because last night, my mom sat down at the dinner table where I was eating, casually browsing through my phone, when she broke the silence with a jarring question in Vietnamese. "When you first got a job, did you ever give me a present with your hard-earned money?" I stopped chewing then because I suddenly realized where this conversation was going to go, and it was not going to end happily. "...No," I replied. And she sighed. A look of dismay cast over her face before she quickly covered it up with a tired smile, "That's quite bad." I let the grip on my phone go slack as I stayed silent in shame. "You know, I feel like this generation, especially in America, children hardly respect their parents. They don't talk to their mom and dad often, they don't help out with chores, and they only think for themselves. This generation is becoming more selfish. I see it in you and (my brother) too." I nodded my head in agreement, but couldn't say more. It was true. My brother and I have become more occupied with our own lives. I am stressing about school, internships, and personal issues while my brother is dedicating his time to his job, his friends, and his girlfriend. The way we are splitting our time looks like we don't give any thought to our parents. But sometimes I'm not sure how I can do more for them. Besides, I gifted her part of the money that I earned this summer as a waitress - but I guess that is expected.           
-                    These past few years, I've been working on being a better daughter, friend, and person in general. But sometimes, I think I revert back to my old self when I'm worn out. Maybe I am becoming more selfish in a bad way. Perhaps, I have been neglecting to look after my mom's health when I could've organized time in my schedule to be with her more. And when I think about how fundamentally flawed my character is, I want to stop everything even more.      
-                </p>
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
+    <div class="container">
+        <section>
+            <div class="header"> <!--currently no css for .header-->
+                <h2 class="feature-post-item"> <!--the class tag is here to try to align with the archived posts; obvs it's failing but i'm making do-->
+                    <img class="header-image" src="/img/snoopy_typin.webp">
+                    Snoopy's Post
+                </h2>      
+            </div>
+            <div class="feature-posts">
+                <a href="" class="feature-post-item">                       
+                    <span>Archived Posts</span>
+                </a>
+                <a href="/html/blogs/first-blog.html" class="feature-post-item">
+                    <img class="w-100" src="/img/bento.webp" alt="">
+                    <div class="feature-post-caption">My First Blog</div>
+                </a>
+                <a href="/html/blogs/filial-piety.html" class="feature-post-item">
+                    <img class="w-100" src="/img/coffee.jpg" alt="">
+                    <div class="feature-post-caption">Filial Piety</div>
+                </a>
+                <a href="/html/blogs/time.html" class="feature-post-item">
+                    <img class="w-100" src="/img/open_bento.webp" alt="">
+                    <div class="feature-post-caption">Running out of Time</div>
+                </a>
+            </div>
+        </section>
+        <hr>
+        <div class="page-container">
+            <div class="page-content">
+                <div class="card">
+                    <div class="card-header text-center">
+                        <h5 class="card-title">Regarding my Past Blogs</h5> 
+                        <small class="small text-muted">February 05 2023
+                            <span class="px-2">-</span>
+                            <a href="#" class="text-muted">peek-a-boo!</a>
+                        </small>
+                    </div>
+                    <div class="card-body">
+                        <div class="blog-media">
+                            <img src="/img/kiki.webp" alt="" class="w-100">
+                            <hr>
+                            <a href="#" class="badge badge-primary">#Xin Chào bạn!</a>     
+                        </div>  
+                        <p class="my-3">Hello there. I am currently in the process of reorganizing/reformatting this blog page. 
+                            I have been thinking about the blogs from the past year that I recently published, and I felt that some of them didn't fulfill the vibe I wanted.
+                            That's why I am going to work on a more positive approach to this 2023 year. While I want to showcase who I am, including some of my vulnerabilities/insecurities, 
+                            I don't want my blogs to be overshadowed by negativity. So! I will put my past blogs in an archive. That way, the unassuming eye won't see anything offputting. 
+                            At the time of this post, there won't be anything published in the archive yet, so please be patient if you are curious enough to read them :).
+                        </p>
+                    </div>
+                    
+                    <div class="card-footer d-flex justify-content-between align-items-center flex-basis-0">
+                        <!-- <button class="btn btn-primary circle-35 mr-4"><i class="ti-back-right"></i></button> -->
+                        <!-- <a href="" class="btn btn-outline-dark btn-sm">  </a> READ MORE  -->
+                        <!-- <a href="#" class="text-dark small text-muted">  By : Joe Mitchell  </a>  -->
+                    </div>                  
+                </div>
+                <hr>
+                <div class="row">                       
+                    <div class="col-lg-6">
+                        <div class="card text-center mb-5">
+                            <div class="card-header p-0">                                   
+                                <div class="blog-media">
+                                    <img src="/img/kiki_friend.webp" alt="" class="w-100">
+                                    <hr>
+                                    <a href="#" class="badge badge-primary">#¿Estás haciendo bien?</a>        
+                                </div>  
+                            </div>
+                            <div class="card-body px-0">
+                                <h5 class="card-title mb-2">Put Yourself Out There</h5>    
+                                <small class="small text-muted">February 09 2023 
+                                    <span class="px-2">-</span>
+                                    <a href="#" class="text-muted">Boo!</a>
+                                </small>
+                                <p class="my-2">Today was really fun and scary to me at the same time. The context is that I attended a club's meeting at my university for this semester. 
+                                    For introverts like me, social events are anxiety-inducing, especially when you go by yourself. And when you are already not a part of a clique, it's even harder 
+                                to reach out to people. Towards the start of the meeting, I felt myself stressing out like crazy. While I was already acquainted with others at the club, I didn't know if I could will myself
+                                to be optimistic about my social prospects. I worried that I would end up sitting by myself without talking to anyone new. Approaching the building's elevators, I thought, <i>I can't waste two hours here being alone.</i>
+                                To my relief, I recognized a familiar person in the elevator whom I met previously at another club. At this point, my anxiety was reaching its peak, so I distracted myself
+                                with making small talk. We ended up talking some more on our way to the meeting's room. And thankfully, her and her friend sat next to me. 
+                                I think what really helped pull us together was that we were both introverts navigating through a sociable environment at the time. We talked a lot about our fears and struggles in
+                                the CS world and having to "put ourselves out there." There were many times she psyched herself out from introducing herself to the club's officers. But eventually, with enough push and 
+                                eagerness, she did it! And I felt very proud of her. Her determination was what inspired me to reach out as well.
+                                By the end of the event, I realized that everyone was quite friendly and approachable if you just came by and stay around. But that came with approaching them first and faking it till you make it. 
+                                I found myself feeling more comfortable with the officers and speaking to acquaintances. My anxiety had shaken off and I was more confident in my speaking skills.
+                                So if you start feeling shy when you're attending a social gathering, you're definitely not alone! Many people have been or are in your place. Even if the first step is just introducing yourself, that's already
+                                quite big!
+                                </p>
+                            </div>
+                            
+                            <div class="card-footer p-0 text-center">
+                                <!-- <a href="single-post.html" class="btn btn-outline-dark btn-sm">READ MORE</a> -->
+                            </div>                  
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="card text-center mb-5">
+                            <div class="card-header p-0">                                   
+                                <div class="blog-media">
+                                    <img src="/img/jiro_dream.webp" alt="" class="w-100">
+                                    <hr>
+                                    <a href="#" class="badge badge-primary">#Comment ça va?</a>        
+                                </div>  
+                            </div>
+                            <div class="card-body px-0">
+                                <h5 class="card-title mb-2">Go go go</h5> 
+                                <small class="small text-muted">February 19 2023
+                                    <span class="px-2"></span>
+                                    <a href="#" class="text-muted"></a>
+                                </small>
+                                <p class="my-2">Heya! Hope all is going well for my readers. Today I want to talk about my time at my university's career fair. The day before, I went to a workshop
+                                    that prepared you on what to do or say to the recruiters. I went there expecting to be kept to myself. But surprisingly, I made a few new friends! 
+                                    We were all nervous and jittery for the big day, so we practiced our lines and gave each other advice and emotional support. It was such
+                                    a nice moment to share with lovely strangers that I am so glad I went. And then I went home and stayed up till 1 a.m. 
+                                    researching the companies I was interested in and printed out my notes to remind me of what special information they had and what I could tell
+                                    them regarding my personal experiences. 
+                                    <br>
+                                    <br>
+                                    I think everyone, at some point, has felt that career fairs are nerve-wracking. I remember stuttering my way through my first career fair last semester. I was not only unprepared 
+                                    for what the companies wanted or offered, but also just unsure of myself. I felt that I lacked a lot of experience compared to my peers. My resume was missing substantial substance.
+                                    Who was I to go up to a recruiter and prove my worth when I had little to show? But at the same time, I think that alone motivated me to put myself out there. I knew that at the very least, I
+                                    would gain practice from talking and putting myself out there. As I walked through the doors and into the bustling room, I took a deep breath and walked over to a booth and introduced myself.
+                                    Surprisingly, the recruiters were very genuine and understanding. Since I told them it was my first time being at the fair, they took the lead and guided our conversation. By the end of the first hour, 
+                                    I felt my anxiety ease and slip away as I approached one recruiter after another. 
+                                    <br>
+                                    <br>
+                                    Learning from that experience made me take the initiative this semester. I actually wasn't as nervous that morning. Instead, I met up with my new friend from last night and encouraged her to speak to her first recruiters.
+                                    After talking to three recruiters together, I believed she was ready to do it alone. So we ended up going to the companies we were interested in for the next hour and a half. During that time, I found a company
+                                    I was really interested in and shared my resume with them. I then talked to other recruiters to get more practice with talking. Overall, I think the career fair was a smooth process for me.
+                                    <br>
+                                    <br>
+                                    This time, I feel a little bit more confident about my skills and projects. But I also remind myself that I still have a long way to go and that my desired company probably won't reach out to me this year and that that is perfectly fine. It just means
+                                    I have an extra year to hone my skills for the big and better things outside of my university :).   
+                                    </p>
+                            </div>
+                            
+                            <div class="card-footer p-0 text-center">
+                                <!-- <a href="single-post.html" class="btn btn-outline-dark btn-sm"></a>   -->
+                                <hr>           
+                            </div>       
+                        </div>
+                    </div>
+                <div class="col-lg-6">
+                    <div class="card">
+                        <div class="card-header text-center">
+                            <span class="px-2"></span>
+                            <a href="#" class="text-muted">It's getting chilly again~</a>
+                        </small>
+                    </div>
+                    <div class="card-body">
+                        <div class="blog-media">
+                            <img src="/img/prince.webp" alt="" class="w-100">
+                            <hr>
+                            <a href="#" class="badge badge-primary">#Bạn oi! Ăn com chưa?</a>     
+                            <h5 class="card-title">New Projects</h5> 
+                            <small class="small text-muted">March 04 2023</small>
+                            </div>  
+                            <p class="my-2">
+                                I don't know about you, but I love starting projects, especially when collaborating with others on Github. The only problem is, I 
+                                end up taking on too many things I want to do and not have enough time to put enough work in them. For example, I joined a small community of beginner
+                                webdevs from Reddit. Some of the projects they have formulating look really fun to do, but that means I may have to spend hours at a time (that I usually 
+                                don't have) to submit something workable. Normally, this would discourage me, but I think it's worth investing what little free time I have in making
+                                progress for this little group of aspiring webdevs! Plus, it's low commitment, the host is super supportive and communicative, and it made me realize I know 
+                                a little bit more about React than last year, which is a plus for me. Speaking of which, this a reminder to only compare your current self to your past self.
+                                You should give yourself a pat on the back for learning so much and persevering through the rough past year! At least give yourself that. 
+                                <br><br>
+                                Anyways, last weekend I got myself hooked for an hour watching and following along to a Nextjs tutorial, which is a rare thing for me! I usually lose 
+                                interest in lengthy videos (or lose hope in myself), but I actually understood 90% of the content. I wanted to continue that spree this weekend, but I have 
+                                to study for my midterms that are happening next week. Sometimes I have to remind myself of higher priorities instead of chasing smaller goals.
+                                So, hopefully the week after (which is spring break woohoo!) will allow me to go crazy on my awaited projects. But, alas, I have to go study now 
+                                and conquer those exams. See you next week!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card">
+                        <div class="card-header text-center">
+                            <span class="px-2"></span>
+                            <a href="#" class="text-muted">Daylight Savings got me feeling wack</a>
+                     
+                    </div>
+                    <div class="card-body">
+                        <div class="blog-media">
+                            <img src="/img/headphones_girl.webp" alt="" class="w-100">
+                            <hr>
+                            <a href="#" class="badge badge-primary">#Bạn ngủ có ngon không?</a>     
+                            <h5 class="card-title">Music</h5> 
+                            <small class="small text-muted">March 15 2023</small>
+                        </div>  
+                            <p class="my-2">
+                                Goodness me, I am late to my own blog! Actually, this spring break has been so hectic as I've been busy with plans (social and academic).
+                                I'll talk about them in future posts (hopefully I can crank out two more posts before next Monday). But for now: MUSIC.
+                                <br><br>
+                                I am the type of person to always always be listening to something. I don't know if it's an ADHD thing (I am not diagnosed), but I HAVE to have either Spotify
+                                or YouTube running in the background in order for me to work. I wonder a lot on whether this is common. Because among my friends, I am the very few who enjoys background
+                                noise. Like right now, I am listening to soft brown noise on Spotify, and it's been playing the playlist since morning.
+                                <br><br>
+                                That doesn't mean I go on full focus mode whenever a media app is playing music though. I actually get distracted quite easily. 
+                                <br><br>
+                                I'll spend 10 minutes scrolling through my YouTube recommendations to find the *right* or *perfect* song to listen to. Or I'll casually 
+                                be listening to a playlist and a song I really like comes on, so I take a moment to jam out and end up getting distracted. So do I really need sound to focus, or am I just 
+                                scared of boredom? I wish I knew the perfect mixture of a good study playlist back in high school because I don't think I did any productive studying when I was busy dancing to 
+                                killer k-pop and early 2000's American pop songs.
+                                <br><br>
+                                Anyways, I feel like music is such a critical part to living and *existing* in life. Music has the power to make you feel certain emotions according to the genre you're listening to.
+                                If you're sad, and you listen to a sad song. Guess what? Your depression is amplified. And if you're feeling great while listening to your favorite upbeat song, you feel like you're on 
+                                top of the world! There's not a day that I will not dance to a catchy song in my room and unleash my inner popstar persona. That's why I just find it so hard to believe that 
+                                there are people who do not actually enjoy listening... to anything. Like I used to have a friend who refused to listen to music because it didn't "interest" her. 
+                                It worked out for her though because she powered through her homework assignments like they were nothing and finished in the top 5%. But still, life without music is like 
+                                living without seeing color. You're simply missing out on the vibrancy that music gives, in my opinion.
+                                <br><br>
+                                Anyways, I am not sure if I have a favorite genre. Sure, I love k-pop, but it has such a wide range of genres within it that not many people outside of k-pop 
+                                realize. My all-time artists are IU, Heize, and SEVENTEEN. My newest favs are NewJeans and XG. And those artists vary quite widely from each other, so I'd say my musics tastes
+                                are diverse hehe. As for other music around the world, I think Keshi, OFFICIAL HIGE DANDISM, Fujii Kaze, and Nujabes remain to be my top favs.
+                                <br><br>
+                                If I had a comment section, I would ask y'all what you like to listen to. Maybe I'll implement it this summer; count on me to do it!
+                            </p>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="card">
+                        <div class="card-header text-center">
+                            <span class="px-2"></span>
+                            <a href="#" class="text-muted">Just a little worn out~</a>
+                        </div>
+                    <div class="card-body">
+                        <div class="blog-media">
+                            <img src="/img/kimi_ni_todoke.webp" alt="" class="w-100">
+                            <hr>
+                            <a href="#" class="badge badge-primary">#Comme ci, comme ça</a>     
+                            <h5 class="card-title">FOMO: Fear Of Missing Out</h5> 
+                            <small class="small text-muted">March 19 2023</small>
+                        </div>  
+                            <p class="my-2">
+                                HEY. It's me again. So, unfortunately, I will not be able to pump out another post before Monday, but I satisfied my weekly quota so it's fine. Who cares if I update it sporadically?
+                                I am determined to give some crumbs the few people who read this (and I will be part of the audience when I look back on this). p.s. I think I have become addicted to separating my sentences with break tags.
+                                <br><br>
+                                This spring break has been so hectic. I went out every single day of the 
+                                week. Ironically, the only days where I could do nothing were the days 
+                                leading up to the Monday of the break. And the only reason I don't have 
+                                any time to myself is because of the fear of missing out.
+                                <br><br>
+                                During the daytimes, I went to friend's houses to play Mario Party, play
+                                board games (we spent 3 hours straight playing <i>Here to Slay - Expansion Pack</i> and it wouldn't have finished had we not forced someone to win;
+                                we were literally begging them to PLEASE take our hero cards) watch movies,
+                                hangout at downtown Houston, and eat at restaurants.
+                                <br><br>
+                                At nights (especially the ungodly hours), I would get looped into Discord
+                                voice chats because of the fun gaming sessions with new friends and
+                                silly conversations that could only occur with old friends.
+                                <br><br>
+                         
+                                Any real free time I had was spent working on projects, whether it was personal contributions to a community project or my class projects, and studying. Cue the sobbing emoji.
+                          
+                                <br><br>
+                                But would I change any part of how I did my spring break? Reflecting back on the amount of fun I had every day, I would say, in the grand scheme of things, no.
+                                I am genuinely glad and super grateful that I got to spend time with <i>everyone</i>. It's rare enough that I get a day to spend time with people who I've missed because both 
+                                of us are busy with the grind or that person is out of town for school. I was actually talking about something similar with my brother today while we were at a family dinner (this is ironically the rarest form of 
+                                interaction in my case). He was talking about how the only free time you'll ever have after you graduate is the weekend. You don't get holiday breaks. No long winter breaks, Thanksgiving breaks spring breaks, NO SUMMER, etc.
+                                And I thought, <i>Wow. This is kind of depressing ngl.</i> But what's the point in dreading the inevitability of that 9-5 work life? That's why I want to treasure every moment I have with other humans. 
+                                <br><br>
+                                Friends are, most of the time, your backbone. I think the fear of missing out really hits during a break because
+                                everyone looks like they're having fun and obviously, you want to join in on it 
+                                too or else you'll miss out on inside jokes, funny moments, and interesting friendships.
+                                Over the years, I've realized that I have a particular habit of multitasking
+                                online interactions. If I can text several people, join a voice call in one
+                                server, and join a Hyperbeam watch together session in another server, I *will*
+                                do it just so that I don't miss out on anything.
+                                <br><br>
+                                Is it always doable? No. Do I usually end up doing it? Ehh, 50/50 (STREAM CUPID). I do make sure to set limits on myself, especially when I have pressuring deadlines. Plus, too much social interaction is 
+                                tiring. Anyways, the point is: it's hard to not get FOMO. My current solution is keeping to strict deadlines and muting all media noise. But I still find it hard to stay off Discord haha. Oh, and I still
+                                listen to brown noise which helps me avoid jamming out too hard.
+                        
+                                So, what about you guys? How hard is the FOMO addiction, if any, for y'all?
+                                <br><br>
+                                To end off on this blog, I want to share a song that I've been listening to: 
+                                <br>
+                                Spotify:
+                                <a href="https://open.spotify.com/track/78ByURsaVK39jjwTaerCAk?si=4cfacc77b0ad410f">girls like me don't cry (remix) ft. MIN</a>
+                                <br>
+                                Youtube:
+                                <a href="https://www.youtube.com/watch?v=grvnbktLcV4">girls like me don't cry (remix) ft. MIN</a>
+                                
+                            </div>
+                    </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="card">
+                    <div class="card-header text-center">
+                        <span class="px-2"></span>
+                        <a href="#" class="text-muted">The end is nigh (finals time!)</a>
+                 
+                </div>
+                <div class="card-body">
+                    <div class="blog-media">
+                        <img src="/img/time.webp" alt="" class="w-100">
+                        <hr>
+                        <a href="#" class="badge badge-primary">#Chúc mừng may mắn!</a>     
+                        <h5 class="card-title">Time is ticking...</h5> 
+                        <small class="small text-muted">April 20, 2023</small>
+                    </div>  
+                        <p class="my-2">
+                            Hello, I am late again. Jeez, it's been nearly a month since my last update! Unfortunately, this blog is going to be extremely short due to time constraints. <br>
+                            Before diving in, I want to give a quick shoutout to a friend who made me update my blog today before midnight (I see you taco lover) and of course, 
+                            my friend who encouraged me to do this blog in the first place (hi bestie)! <br><br>
+                            So, the topic I want to briefly talk about today is how crazy it is during finals season. Professors assign stuff like it's <i>nothing</i> to them and the exams are always during the most hectic times.
+                            You start seeing less people attend classes and out and about on campus because they're holed up somewhere else studying for their finals. Like this week I had homework I spent 3 days on, 
+                            a math exam, and then I have two projects due this weekend! <br><br>
+                            I just think it's insane how people can do an x certain amount of work while also balancing extracurriculars and possibly even a part-time job. So shout out to y'all because that's 
+                            an impressive feat and it's something I want to be able to master. <br><br>
+                            Time management is such a critical skill that I feel like I'm only <i>just</i> learning how to even grasp it. For example, I've been wanting to get involved in my university's clubs
+                            for the longest time, but due to stacking homework assignments and projects (not to mention the commute ride home), they take up an extensive percentage of my free time.<br><br>
+                            That's why this semester I have been pushing myself to attend more club meetings while also dedicating special time to my assignments. And so far? It's not that bad to the point
+                            of breaking down. Like yeah, my grades have not been the <i>best it could be</i>, but I think it's fine to sacrifice them to fun extracurriculars!<br><br>
+                            Anyways, I have to go back to the hard-hitting reality that my projects are due in just a few days now. But my goal for next semester is to be even more involved while also
+                            balancing my academic life. So good luck to future me, my readers, and all the people struggling right now because we <i>will</i> push through it!!
+                        </p>
+                </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="card">
+                    <div class="card-header text-center">
+                        <span class="px-2"></span>
+                        <a href="#" class="text-muted">It's getting hot...</a>
+                 
+                </div>
+                <div class="card-body">
+                    <div class="blog-media">
+                        <img src="/img/kiki_laying_down.webp" alt="" class="w-100">
+                        <hr>
+                        <a href="#" class="badge badge-primary">#Mùa hè đang đến!</a>     
+                        <h5 class="card-title">What now?</h5> 
+                        <small class="small text-muted">April 30, 2023</small>
+                    </div>  
+                        <p class="my-2">
+                            So there's less than 2 weeks of this spring semester. How crazy, exhilirating, and amazing! So quickly at that! It 
+                            feels like the end is quickly speeding up. Andddd... I feel like doing nothing and everything at the same time. 
+                            <br><br>
+                                                   
+                            During the semester, so many ideas sprung out at me: <br><br>
+                            "Oh, I should implement this, this, and that!"<br><br>
+                            "Man, I should write about this one time I..." <br><br>
+                            "Omg this is perfect for my blog, I should put this in there!" <br> <br>
+                            (No, I will not list my actual ideas because I'm afraid they won't come to fruition and I'm going to look silly overplanning everything.) <br><br>
+                            But when it comes time to do the things I've been wanting to do,  I feel myself slowing down to a sluggish stop.
+                            I just want to lay down and binge the Last of Us TV and game series. I can just feel my ultra couch potato mode taking over right now...
+                            BUT, I have so many planned commitments to my university's clubs' projects that it's exciting to just think about them. 
+                            <br> <br> 
+                            My goal is to at least get a headstart on all of them so that the following fall semester will be smooth-going. Not to mention, I want to get back on
+                            the web development grind from the small reddit community I joined a few months ago. It's kind of wasteland right now because everyone 
+                            is busy with their own thing, but I'm hoping we can revive it this summer. Oof, and I'll be occupied with planned social events and 
+                            my internship. 
+                            <br> <br> 
+                            I think, part of the reason why I feel scared of personal productivity is because if I start my projects back up again, then I have stay committed to them. It's much different than the impending deadlines of college and the make-or-break grades. 
+                            And sometimes, it's mentally exhausting, especially when there's many things to do. Plus, it's not as easy as saying you're going to do something. Sometimes a feature takes hours or even days to implement, which deters me from trying
+                            harder. One could argue that is the programming experience, but I want things to actual click into place for once.
+                            Which is why I'm going to try to space out my tasks and social outings so that I don't burn myself out! Do I have a solid plan yet? No! But hopefully I'll think 
+                            of something sustainable before May ends.
+                            <br><br>
+                            But before worrying about all of that... I have to pass my finals first. <br><br>
+                            Hope everyone is staying safe and healthy, see y'all next time! <3 
+                        </p>
+                </div>
+                </div>
+            </div>
         </div>
-        <div class="card">
-            <h3>Time</h3>
-                <h5><i>2022-11-07</i></h5>
-                <p>Every single day, I wonder how people have the time to learn new things or do their hobbies. For me, I have always felt like I'm running out of time. I spend too much time worrying about how I should go about doing something that I end up exhausting myself which stops me from doing the activity. Like right now, I am worried about how coherent this post will be that it almost prevented me from making one at all.
-                    I thought I was hardworking and diligent. But each time I try to learn something new, I just get sleepy or unmotivated. What's wrong with me? Why have I become so lazy?     
-                    This semester I am only taking 4 classes. While I have plenty of time to rest and scroll aimlessly through YouTube or find a decent book to read, I feel listless. I know I have plenty of time to learn new programming skills, but I always feel demotivated because it takes *time* for me to really understand. It feels like I am putting too much effort in something I can't even retain well. I am envious of people who can easily learn and remember new information. That gives them so much time to do other things they can enjoy as hobbies.     
-                    Sometimes, I consider using a calendar or a planner. But I know my learning style, and it does not fit with such strict consistency. And my emotions are usually in turmoil or in rollercoasters throughout the day, which makes my productivity inconsistent. It really feels like there's nothing I can do as time slips by me. Yet, I really want this to change.
-                    I really want to know if there's people like me out there. If you also struggle to learn despite trying your best. Right now, I feel alone in my struggles as all my peers and friends seem so bright and intelligent. As I type, I have a friend learning JavaScript while building their own website. It's truly admiring. I have tried to build and design my own websites in the past, but I kept failing because I felt that I didn't have enough time or I was too dumb to connect some parts together to make it work.
-                </p>
-        </div>
-    </div>
 </body>
