@@ -47,7 +47,6 @@
   a:not([href]):not([tabindex]):focus {
     outline: 0;
   }
-
   button {
     border-radius: 0;
   }
@@ -81,7 +80,6 @@ button::-moz-focus-inner,
   padding: 0;
   border-style: none;
 }
-
   img {
     vertical-align: middle;
     border-style: none;
@@ -222,13 +220,11 @@ button::-moz-focus-inner,
     }
   }
   
-
   @media screen and (max-width: 1320px) and (min-width: 960px) {
     .container {
       max-width: 1000px !important;
     }
   }
-
   @media (min-width: 576px) {
     .container {
       max-width: 540px;
@@ -264,7 +260,6 @@ button::-moz-focus-inner,
     margin-bottom: 0.5rem;
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
-
   }
 
   .navbar {
@@ -520,5 +515,4 @@ button::-moz-focus-inner,
       padding-right: 0;
       padding-left: 0;
     }
-
   }
