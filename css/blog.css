@@ -1,13 +1,15 @@
 .header-image{
-    height: 10%;
-    width: 10%;
-  
+    height: 12%;
+    width: 12%;
+    margin-right: 15px;
+    padding: 10px;
   }
 .leftcolumn {
     float: left;
     width: 75%;
   }
-.header, .leftcolumn {
+
+.leftcolumn { 
     padding: 20px;
 }
 .card {
